@@ -1,8 +1,24 @@
 .SearchBar {
-    & input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__box {
         text-align: center;
         width: 20vw;
         height: 4vh;
+        border-radius: 25px;
+    }
+
+    &__btn {
+        background-image: url(../../assets/search.svg);
+        background-repeat: no-repeat;
+        background-color: white;
+        background-position: center;
+        background-size: 50%;
+        margin: 10px;
+        height: 4vh;
+        width: 4vh;
         border-radius: 25px;
     }
 }
